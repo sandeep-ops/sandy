@@ -1,7 +1,7 @@
 node {
         stage ( 'SCM' ) {
                 // git clone
-                git 'https://github.com/sandeep-ops/testing.git'
+                git 'https://github.com/sandeep-ops/sandy.git'
         }
 
         stage ( 'build the packages' ) {
@@ -12,6 +12,6 @@ node {
 
         stage ('archival') {
                 //archiving artifacts
-                archieve 'target/*.jar
+                archieve 'target/*.jar'
         }
 }
