@@ -10,8 +10,5 @@ node {
 
         }
 
-        stage ('archival') {
-                //archiving artifacts
-                archieve 'target/*.jar'
-        }
+    
 }
